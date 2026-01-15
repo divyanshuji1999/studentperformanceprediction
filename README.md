@@ -122,19 +122,19 @@ Below is a walkthrough of the end‑to‑end user flow — from input to predict
 
 The user is presented with a clean, minimal form to enter student details.
 
-![Landing Page](assets\demo1.PNG)
+![Landing Page](assets/demo1.PNG)
 
 ### 2️⃣ Filled Input Form
 
 All required academic and demographic inputs are captured through dropdowns and validated fields.
 
-![Input Form](assets\demo2.PNG)
+![Input Form](assets/demo2.PNG)
 
 ### 3️⃣ Prediction Output
 
 After submission, the trained model returns the **predicted math score** in real time.
 
-![Prediction Result](assets\demo3.PNG)
+![Prediction Result](assets/demo3.PNG)
 
 > These screenshots demonstrate the **complete inference loop** — UI → API → ML pipeline → prediction.
 
