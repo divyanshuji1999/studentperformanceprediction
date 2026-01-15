@@ -10,12 +10,7 @@ This project is intentionally designed **like an industry ML system**, not a not
 
 Most ML projects stop at training a model. This one does not.
 
-✔ End‑to‑end pipeline (ingestion → transformation → training → prediction)
-✔ Clean, extensible project structure
-✔ Proper exception handling and logging
-✔ Flask web app for real‑time inference
-✔ Cloud‑ready (AWS compatible)
-✔ CI/CD friendly
+✔ End‑to‑end pipeline (ingestion → transformation → training → prediction) ✔ Clean, extensible project structure ✔ Proper exception handling and logging ✔ Flask web app for real‑time inference ✔ Cloud‑ready (AWS compatible) ✔ CI/CD friendly
 
 **Result:** A recruiter can immediately see production thinking, not just algorithms.
 
@@ -119,6 +114,32 @@ The Flask app exposes the model through a clean UI.
 
 ---
 
+## 🎬 Live Demo (Flask Web App)
+
+Below is a walkthrough of the end‑to‑end user flow — from input to prediction.
+
+### 1️⃣ Landing Page
+
+The user is presented with a clean, minimal form to enter student details.
+
+![Landing Page](assets/demo1.png)
+
+### 2️⃣ Filled Input Form
+
+All required academic and demographic inputs are captured through dropdowns and validated fields.
+
+![Input Form](assets/demo2.png)
+
+### 3️⃣ Prediction Output
+
+After submission, the trained model returns the **predicted math score** in real time.
+
+![Prediction Result](assets/demo3.png)
+
+> These screenshots demonstrate the **complete inference loop** — UI → API → ML pipeline → prediction.
+
+---
+
 ## ☁️ Deployment
 
 * Designed for **AWS deployment** (EC2 / Elastic Beanstalk)
@@ -155,7 +176,7 @@ pip install -r requirements.txt
 python application.py
 ```
 
-Then open: **[http://localhost:5000](http://localhost:5000)**
+Then open: [**http://localhost:5000**](http://localhost:5000)
 
 ---
 
