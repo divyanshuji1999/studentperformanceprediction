@@ -176,17 +176,3 @@ Then open: **[http://localhost:5000](http://localhost:5000)**
 
 **Padmanabh Mishra**
 Data Scientist / AI Engineer
-
-This project reflects how I **think, design, and ship ML systems** — not just train models.
-
----
-
-## 📌 Final Note for Recruiters
-
-If you are looking for someone who:
-
-* Writes clean ML code
-* Understands deployment realities
-* Builds systems, not scripts
-
-This project is proof.
